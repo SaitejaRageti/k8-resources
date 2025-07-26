@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ngnix
+  labels:
+    project: roboshop
+    tier: frontend
+    environment: dev
+spec:
+  containers:
+    - name: ngnix
+      image: ngnix
