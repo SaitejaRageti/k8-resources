@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config
+  labels:
+    project:  roboshop
+    env: deb
+    tier: frontend
+    purpose: config-demo
+data:
+  COURSE: "DevOps with AWS"
+  DURATION: "120HRS"
+  TRAINER: "SIVAKUMAR REDDY M"
