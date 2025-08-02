@@ -18,4 +18,4 @@ spec:
           memory: "136Mi"
           cpu:  "200m"
       ports:
-        - ContainerPort: 80
+        - containerPort: 80
