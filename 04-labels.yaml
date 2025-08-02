@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: labels
-  namespace: roboshop
+  namespace: roboshop  ###creates this pod in roboshop namespace, if we wont mention any namespace then it creates in default namespace.
   labels:
     project: roboshop
     tier: frontend
