@@ -12,7 +12,7 @@ spec:
   persistentVolumeReclaimPolicy: Retain    # What to do with the PV after the PVC is released
   csi:
     driver: efs.csi.aws.com
-    volumeHandle:  fs-07c7431bdd2ac5498     # Replace with the actual EfS volume ID
+    volumeHandle:  fs-0739324c9ddad21cc     # Replace with the actual EfS volume ID
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
