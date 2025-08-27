@@ -35,7 +35,7 @@ metadata:
     project: roboshop
 spec:
   nodeSelector:  ##we used nodeselector as the volume created in east-1c region so the pod should land in that region node theen only we can mount 
-    topology.kubernetes.io/zone: us-east-1c 
+    topology.kubernetes.io/zone: us-east-1b 
   containers:
   - name: nginx
     image: nginx
