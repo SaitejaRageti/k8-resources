@@ -18,6 +18,7 @@ metadata:
     purpose: ebs-dynamic-demo
     project: roboshop
 spec:
+  topology.kubernetes.io/zone: us-east-1b 
   containers:
   - name: nginx
     image: nginx
